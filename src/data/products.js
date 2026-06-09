@@ -13,6 +13,7 @@ export const fabricProducts = [
     certifications: ['OEKO-TEX® STANDARD 100', 'Ignífugo UNE 1021', 'IMO FTP 2010'],
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Transpirable', 'Ignifugado', 'Impermeable', 'Duradero'],
     image: '/images/coverguard.png',
+    imageInUse: '/images/coverguard_inuse.png',
   },
   {
     id: 'strongmax',
@@ -27,6 +28,7 @@ export const fabricProducts = [
     certifications: ['OEKO-TEX® STANDARD 100', 'Ignífugo UNE 1021'],
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Transpirable', 'Ignifugado', 'Impermeable', 'Duradero'],
     image: '/images/strongmax.png',
+    imageInUse: '/images/strongmax_inuse.png',
   },
   {
     id: 'nylonguard',
@@ -41,6 +43,7 @@ export const fabricProducts = [
     uses: 'Alta resistencia, exterior, embarcaciones, bolsos, terraza',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU', 'Duradero'],
     image: '/images/nylonguard.png',
+    imageInUse: '/images/nylonguard_inuse.png',
   },
   {
     id: 'polyesterguard',
@@ -55,6 +58,7 @@ export const fabricProducts = [
     uses: 'Exterior, carpas, toldos, vestuario impermeable',
     qualities: ['Hidrófugo', 'Antimanchas', 'Protección UV', 'Resistencia a la llama', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU'],
     image: '/images/polyesterguard.png',
+    imageInUse: '/images/polyesterguard_inuse.png',
   },
   {
     id: 'oxfordguard',

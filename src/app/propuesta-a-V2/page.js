@@ -13,6 +13,7 @@ const heroImages = [
 export default function PropuestaAV2() {
   const [scrolled, setScrolled] = useState(false);
   const [currentImage, setCurrentImage] = useState(0);
+  const [showInUse, setShowInUse] = useState(false);
 
   useEffect(() => {
     // Scroll listener for nav
@@ -30,10 +31,16 @@ export default function PropuestaAV2() {
       setCurrentImage((prev) => (prev + 1) % heroImages.length);
     }, 5000);
 
+    // Fabric images toggle interval (5 seconds)
+    const fabricTimer = setInterval(() => {
+      setShowInUse((prev) => !prev);
+    }, 5000);
+
     return () => {
       window.removeEventListener('scroll', onScroll);
       obs.disconnect();
       clearInterval(timer);
+      clearInterval(fabricTimer);
     };
   }, []);
 
@@ -100,9 +107,9 @@ export default function PropuestaAV2() {
             <div className="hero-a__badge-item"><em>♻️</em> Confección Zero-Waste</div>
           </div>
 
-          <button className="hero-a__cta" onClick={() => document.getElementById('tejidos-a')?.scrollIntoView({ behavior: 'smooth' })}>
+          <a href="https://drive.google.com/file/d/1tf-uOfSk39FzTk6dgqR3dZLXZIMp4poy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hero-a__cta">
             Ver Catálogo Técnico
-          </button>
+          </a>
         </div>
       </section>
 
@@ -118,13 +125,48 @@ export default function PropuestaAV2() {
           <div className="grid-a">
             {fabricProducts.map((p, i) => (
               <article key={p.id} className={`fcard-a reveal reveal-delay-${(i % 3) + 1}`}>
-                <div className="fcard-a__img">
+                <div className="fcard-a__img" style={{ position: 'relative', overflow: 'hidden' }}>
                   {p.image ? (
-                    <img src={p.image} alt={p.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                    <>
+                      {/* Original swatch image */}
+                      <img 
+                        src={p.image} 
+                        alt={p.name} 
+                        style={{ 
+                          width: '100%', 
+                          height: '100%', 
+                          objectFit: 'cover', 
+                          display: 'block',
+                          position: 'absolute',
+                          inset: 0,
+                          transition: 'opacity 1s ease-in-out',
+                          opacity: (showInUse && p.imageInUse) ? 0 : 1,
+                          zIndex: 1
+                        }} 
+                      />
+                      {/* In-use image (if exists) */}
+                      {p.imageInUse && (
+                        <img 
+                          src={p.imageInUse} 
+                          alt={`${p.name} en uso`} 
+                          style={{ 
+                            width: '100%', 
+                            height: '100%', 
+                            objectFit: 'cover', 
+                            display: 'block',
+                            position: 'absolute',
+                            inset: 0,
+                            transition: 'opacity 1s ease-in-out',
+                            opacity: showInUse ? 1 : 0,
+                            zIndex: 2
+                          }} 
+                        />
+                      )}
+                    </>
                   ) : (
                     <span>{p.name}</span>
                   )}
-                  <div className="fcard-a__badge">{p.guarantee}</div>
+                  <div className="fcard-a__badge" style={{ zIndex: 10 }}>{p.guarantee}</div>
                 </div>
                 <div className="fcard-a__body">
                   <h3 className="fcard-a__name">{p.name}</h3>
