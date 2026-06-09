@@ -37,13 +37,14 @@ export default function Home() {
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: '24px',
-        maxWidth: '960px',
+        maxWidth: '1200px',
         width: '100%',
       }}>
         {[
           { href: '/propuesta-a', label: 'A', title: 'Warm Nautical Luxe', desc: 'Fondo crema/beige, acentos navy, tipografía serif clásica. Estilo catálogo de lujo náutico.', color: '#d4a855' },
           { href: '/propuesta-b', label: 'B', title: 'Dark Premium Marine', desc: 'Navy oscuro, acentos dorados, glassmorphism. Estilo moderno y tecnológico premium.', color: '#4a7cc9' },
           { href: '/propuesta-c', label: 'C', title: 'Hybrid Elegant', desc: 'Hero oscuro que transiciona a secciones claras. Lo mejor de ambos mundos.', color: '#8b6cc9' },
+          { href: '/propuesta-d', label: 'D', title: 'Monochrome Premium', desc: 'Negro y blanco puro. Editorial, minimalista, máximo lujo. Estilo casa de moda de alta costura.', color: '#ffffff' },
         ].map((p) => (
           <Link key={p.href} href={p.href} style={{
             background: '#111a2e',
