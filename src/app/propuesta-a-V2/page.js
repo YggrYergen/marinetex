@@ -167,7 +167,7 @@ export default function PropuestaAV2() {
                 </div>
                 <h3 className="ccard-a__name">{p.name}</h3>
                 <p className="ccard-a__desc">{p.description}</p>
-                <p className="ccard-a__g">{p.guarantee} de garantía</p>
+                <p className="ccard-a__g">{p.guarantee} de duración</p>
               </article>
             ))}
           </div>

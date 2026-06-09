@@ -159,7 +159,7 @@ export const complementaryProducts = [
   },
   {
     id: 'bronze-brooch-giratorio-tornillo',
-    name: 'Broche Giratorio Tornillo',
+    name: 'Broche Giratorio',
     icon: '🔧',
     description: 'Broches giratorios de bronce DOT con tornillo, esmaltado y filtro UV. Cierres seguros y fáciles de usar para toldos y productos de exterior.',
     guarantee: '5 años',
@@ -168,7 +168,7 @@ export const complementaryProducts = [
   },
   {
     id: 'bronze-brooch-giratorio',
-    name: 'Broche Giratorio',
+    name: 'Broche',
     icon: '🔄',
     description: 'Broches giratorios de bronce con esmaltado y filtro UV. Resistentes a climas extremos y salinidad, aptos para uso exterior e interior.',
     guarantee: '5 años',
