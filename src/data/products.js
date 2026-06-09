@@ -73,6 +73,7 @@ export const fabricProducts = [
     uses: 'Ropa deportiva, ropa de trabajo, bolsos, prendas de vestuario',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Impermeable PU', 'Duradero'],
     image: '/images/oxfordguard.png',
+    imageInUse: '/images/oxfordguard_inuse.png',
   },
   {
     id: 'pvcleather',
@@ -88,6 +89,7 @@ export const fabricProducts = [
     uses: 'Tapicería náutica, yates, restaurantes, piscinas, exterior',
     qualities: ['Imitación Cuero', 'Antimanchas', 'Antimoho', 'Protección UV', 'Impermeable', 'Ignifugado', 'Suave', 'Duradero'],
     image: '/images/pvcleather.png',
+    imageInUse: '/images/pvcleather_inuse.png',
   },
   {
     id: 'vinylglass',
@@ -103,6 +105,7 @@ export const fabricProducts = [
     uses: 'Ventanas flexibles, carpas, terrazas, toldos, puertas enrollables',
     qualities: ['Impermeable', 'Antimanchas', 'Antimoho', 'Protección UV', 'Transparente 92%', 'Flexible', 'Ignifugado', 'Duradero'],
     image: '/images/vinylglass.png',
+    imageInUse: '/images/vinylglass_inuse.png',
   },
 ];
 
