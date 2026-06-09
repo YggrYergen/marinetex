@@ -146,6 +146,7 @@ export const complementaryProducts = [
     description: 'Ojetillos de bronce esmaltados con filtro UV marca DOT. Perfectos para refuerzo de ojales en toldos, carpas y productos náuticos.',
     guarantee: '5 años',
     specs: 'Ø ext. 22.6–28.45 mm · Nickelado',
+    image: '/images/bronze-eyelet.png',
   },
   {
     id: 'bronze-brooch-presion',
@@ -154,6 +155,7 @@ export const complementaryProducts = [
     description: 'Broches a presión de bronce DOT con esmaltado UV. Cierres seguros para carpas, cortinas flexibles, toldos y productos náuticos.',
     guarantee: '6 años',
     specs: 'Ø tapa 15.24 mm · Inox 304',
+    image: '/images/bronze-brooch-presion.png',
   },
   {
     id: 'bronze-brooch-giratorio-tornillo',
@@ -162,6 +164,7 @@ export const complementaryProducts = [
     description: 'Broches giratorios de bronce DOT con tornillo, esmaltado y filtro UV. Cierres seguros y fáciles de usar para toldos y productos de exterior.',
     guarantee: '5 años',
     specs: 'Tornillo #12-14 · Inox 304',
+    image: '/images/bronze-brooch-giratorio-tornillo.png',
   },
   {
     id: 'bronze-brooch-giratorio',
