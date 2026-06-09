@@ -69,7 +69,9 @@ export default function PropuestaAV2() {
         </div>
         <div className="hero-a__overlay" />
         <div className="hero-a__content">
-          <div className="hero-a__logo-ph">Logo</div>
+          <div className="hero-a__logo-ph" style={{ padding: '0', overflow: 'hidden' }}>
+            <img src="/images/logo.png" alt="MarineTex Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          </div>
           <h1 className="hero-a__title">Marine<em>Tex</em></h1>
           <p className="hero-a__sub">Textiles Náuticos & Exterior de Alto Rendimiento</p>
           
@@ -117,7 +119,11 @@ export default function PropuestaAV2() {
             {fabricProducts.map((p, i) => (
               <article key={p.id} className={`fcard-a reveal reveal-delay-${(i % 3) + 1}`}>
                 <div className="fcard-a__img">
-                  <span>{p.name}</span>
+                  {p.image ? (
+                    <img src={p.image} alt={p.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  ) : (
+                    <span>{p.name}</span>
+                  )}
                   <div className="fcard-a__badge">{p.guarantee}</div>
                 </div>
                 <div className="fcard-a__body">
@@ -201,7 +207,9 @@ export default function PropuestaAV2() {
               Cotizar Producto a Medida <span>→</span>
             </a>
           </div>
-          <div className="mc-a__ph reveal reveal-delay-2">Marine Covers — Imagen</div>
+          <div className="mc-a__ph reveal reveal-delay-2" style={{ padding: '0', overflow: 'hidden' }}>
+            <img src="/images/marine-covers-footer.png" alt="Marine Covers Chile" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+          </div>
         </div>
       </section>
 

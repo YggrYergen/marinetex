@@ -40,7 +40,9 @@ export default function PropuestaA() {
         <div className="hero-a__bg" style={{ backgroundImage: 'url(/images/hero-a.png)' }} />
         <div className="hero-a__overlay" />
         <div className="hero-a__content">
-          <div className="hero-a__logo-ph">Logo</div>
+          <div className="hero-a__logo-ph" style={{ padding: '0', overflow: 'hidden' }}>
+            <img src="/images/logo.png" alt="MarineTex Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          </div>
           <h1 className="hero-a__title">Marine<em>Tex</em></h1>
           <p className="hero-a__sub">Outdoor Textile</p>
           <div className="hero-a__quote">
@@ -65,7 +67,11 @@ export default function PropuestaA() {
             {fabricProducts.map((p, i) => (
               <article key={p.id} className={`fcard-a reveal reveal-delay-${(i % 3) + 1}`}>
                 <div className="fcard-a__img">
-                  <span>{p.name}</span>
+                  {p.image ? (
+                    <img src={p.image} alt={p.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  ) : (
+                    <span>{p.name}</span>
+                  )}
                   <div className="fcard-a__badge">{p.guarantee}</div>
                 </div>
                 <div className="fcard-a__body">

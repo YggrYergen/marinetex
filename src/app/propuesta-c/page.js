@@ -40,7 +40,9 @@ export default function PropuestaC() {
         <div className="hero-c__gradient" />
         <div className="hero-c__content">
           <div className="hero-c__left">
-            <div className="hero-c__logo-ph">Logo</div>
+            <div className="hero-c__logo-ph" style={{ padding: '0', overflow: 'hidden' }}>
+              <img src="/images/logo.png" alt="MarineTex Logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            </div>
             <h1 className="hero-c__title">Marine<em>Tex</em></h1>
             <p className="hero-c__sub">Outdoor Textile</p>
             <button className="hero-c__cta" onClick={() => document.getElementById('tejidos-c')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -73,7 +75,14 @@ export default function PropuestaC() {
           <div className="grid-c">
             {fabricProducts.map((p, i) => (
               <article key={p.id} className={`fc-c reveal reveal-delay-${(i%3)+1}`}>
-                <div className="fc-c__img"><span>{p.name}</span><div className="fc-c__badge">{p.guarantee}</div></div>
+                 <div className="fc-c__img">
+                  {p.image ? (
+                    <img src={p.image} alt={p.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  ) : (
+                    <span>{p.name}</span>
+                  )}
+                  <div className="fc-c__badge">{p.guarantee}</div>
+                </div>
                 <div className="fc-c__body">
                   <h3 className="fc-c__name">{p.name}</h3>
                   <p className="fc-c__comp">{p.composition}</p>
