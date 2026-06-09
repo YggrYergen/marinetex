@@ -43,7 +43,7 @@ export const fabricProducts = [
     uses: 'Alta resistencia, exterior, embarcaciones, bolsos, terraza',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU', 'Duradero'],
     image: '/images/nylonguard.png',
-    imageInUse: '/images/nylonguard_inuse.png',
+    imageInUse: '/images/nylonguard_motor_cover.png',
   },
   {
     id: 'polyesterguard',
@@ -58,7 +58,7 @@ export const fabricProducts = [
     uses: 'Exterior, carpas, toldos, vestuario impermeable',
     qualities: ['Hidrófugo', 'Antimanchas', 'Protección UV', 'Resistencia a la llama', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU'],
     image: '/images/polyesterguard.png',
-    imageInUse: '/images/polyesterguard_inuse.png',
+    imageInUse: '/images/polyesterguard_cream_canopy.png',
   },
   {
     id: 'oxfordguard',
@@ -73,7 +73,7 @@ export const fabricProducts = [
     uses: 'Ropa deportiva, ropa de trabajo, bolsos, prendas de vestuario',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Impermeable PU', 'Duradero'],
     image: '/images/oxfordguard.png',
-    imageInUse: '/images/oxfordguard_inuse.png',
+    imageInUse: '/images/oxfordguard_console_cover.png',
   },
   {
     id: 'pvcleather',
