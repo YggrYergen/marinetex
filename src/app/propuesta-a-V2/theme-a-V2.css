@@ -261,9 +261,9 @@
   box-shadow: 0 8px 28px rgba(27,42,74,0.08);
 }
 .theme-a-v2 .ccard-a__icon {
-  width: 42px; height: 42px; background: rgba(184,150,62,0.1);
+  width: 63px; height: 63px; background: rgba(184,150,62,0.1);
   border-radius: 8px; display: flex; align-items: center;
-  justify-content: center; margin-bottom: 14px; font-size: 1.1rem;
+  justify-content: center; margin-bottom: 14px; font-size: 1.5rem;
 }
 .theme-a-v2 .ccard-a__name {
   font-family: var(--font-heading); font-size: 0.95rem;
