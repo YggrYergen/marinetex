@@ -182,6 +182,21 @@ export default function PropuestaAV2() {
               <p style={{ fontSize: '0.9rem', color: 'var(--text-body)', lineHeight: '1.7', marginBottom: '20px' }}>
                 En lugar de terminar en vertederos, este material ultra resistente es clasificado, limpiado y confeccionado nuevamente para crear accesorios de alta durabilidad como organizadores de cabina, bolsos utilitarios de herramientas náuticas y estuches estancos.
               </p>
+              <div style={{
+                marginTop: '28px',
+                padding: '18px 22px',
+                background: 'rgba(184, 154, 61, 0.06)',
+                borderLeft: '3px solid var(--accent-gold)',
+                borderRadius: '0 8px 8px 0',
+                textAlign: 'left'
+              }}>
+                <strong style={{ display: 'block', color: 'var(--accent-navy)', fontSize: '0.95rem', marginBottom: '6px', fontFamily: 'var(--font-heading)' }}>
+                  🇨🇱 Compromiso 1% Ecológico Litoral
+                </strong>
+                <p style={{ fontSize: '0.85rem', color: 'var(--text-body)', lineHeight: '1.6', margin: 0 }}>
+                  Estamos comprometidos de forma activa con el medio ambiente. Donamos el <strong>1% de nuestros ingresos totales</strong> a iniciativas ecológicas en Chile dedicadas a la limpieza de playas y la conservación de ecosistemas marinos.
+                </p>
+              </div>
             </div>
             <div className="circular-a__visual">
               <div className="circular-a__badge-eco">
