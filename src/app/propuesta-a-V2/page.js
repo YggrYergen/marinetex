@@ -158,7 +158,13 @@ export default function PropuestaAV2() {
           <div className="cgrid-a">
             {complementaryProducts.map((p, i) => (
               <article key={p.id} className={`ccard-a reveal reveal-delay-${(i % 4) + 1}`}>
-                <div className="ccard-a__icon">{p.icon}</div>
+                <div className="ccard-a__icon" style={{ overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  {p.image ? (
+                    <img src={p.image} alt={p.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  ) : (
+                    p.icon
+                  )}
+                </div>
                 <h3 className="ccard-a__name">{p.name}</h3>
                 <p className="ccard-a__desc">{p.description}</p>
                 <p className="ccard-a__g">{p.guarantee} de garantía</p>

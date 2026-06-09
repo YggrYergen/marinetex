@@ -110,6 +110,7 @@ export const complementaryProducts = [
     description: 'Cierres esmaltados con filtro UV, resistentes a climas extremos y salinidad. Ideales para ventanas, cortinas flexibles y confección marina.',
     guarantee: '6 años',
     specs: 'Ancho 1 cm · Blanco y Negro',
+    image: '/images/ykk-zip.png',
   },
   {
     id: 'nylon-force',
@@ -118,6 +119,7 @@ export const complementaryProducts = [
     description: 'Huincha de nylon para dar firmeza y rigidez a confecciones de exterior. Resistente a climas extremos y salinidad.',
     guarantee: '5 años',
     specs: 'Ancho 2.5 y 5.0 cm · Blanco y Negro',
+    image: '/images/nylon-force.png',
   },
   {
     id: 'tiptop-uv',
@@ -126,6 +128,7 @@ export const complementaryProducts = [
     description: 'Broches TipTop de calidad superior resistentes a rayos UV y climas extremos. Ideales para cierres de carpas, toldos y confección marina.',
     guarantee: '5 años',
     specs: 'Ancho 2.5 cm · Polímero alta resistencia',
+    image: '/images/tiptop-uv.png',
   },
   {
     id: 'uv-thread',
@@ -134,6 +137,7 @@ export const complementaryProducts = [
     description: 'Hilo de alta costura con filtro UV, 15 años de duración en exposición directa al sol. Resistente a la salinidad, apto para máquina estándar e industrial.',
     guarantee: '15 años',
     specs: 'Rollo 2500 m · Blanco, Negro, Beige y más',
+    image: '/images/uv-thread.png',
   },
   {
     id: 'bronze-eyelet',
