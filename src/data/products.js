@@ -173,5 +173,6 @@ export const complementaryProducts = [
     description: 'Broches giratorios de bronce con esmaltado y filtro UV. Resistentes a climas extremos y salinidad, aptos para uso exterior e interior.',
     guarantee: '5 años',
     specs: 'Alto 21.3 mm · Bronce Nickelado',
+    image: '/images/bronze-brooch-giratorio.png',
   },
 ];
