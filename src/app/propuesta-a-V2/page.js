@@ -95,6 +95,7 @@ export default function PropuestaAV2() {
             <div className="hero-a__badge-item"><em>⛵</em> Protección Marina</div>
             <div className="hero-a__badge-item"><em>☀️</em> Protección Solar</div>
             <div className="hero-a__badge-item"><em>🛋️</em> Tapicería de Lujo</div>
+            <div className="hero-a__badge-item"><em>♻️</em> Confección Zero-Waste</div>
           </div>
 
           <button className="hero-a__cta" onClick={() => document.getElementById('tejidos-a')?.scrollIntoView({ behavior: 'smooth' })}>
@@ -157,6 +158,34 @@ export default function PropuestaAV2() {
                 <p className="ccard-a__g">{p.guarantee} de garantía</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Ciclo Circular ── */}
+      <section className="sec-a sec-a--circular" id="circular-a">
+        <div className="sec-a__container">
+          <div className="reveal circular-a__layout">
+            <div className="circular-a__text">
+              <p className="sec-a__label">Sustentabilidad Activa</p>
+              <h2 className="sec-a__title">Diseño con Propósito: Nuestro Ciclo Circular</h2>
+              <div className="divider-a" />
+              <p className="sec-a__desc" style={{ marginBottom: '24px' }}>
+                En alianza con Marine Covers Chile, transformamos el descarte en valor. Los retazos de confección técnica y las cubiertas antiguas retiradas entran en nuestro programa de retorno circular.
+              </p>
+              <p style={{ fontSize: '0.9rem', color: 'var(--text-body)', lineHeight: '1.7', marginBottom: '20px' }}>
+                En lugar de terminar en vertederos, este material ultra resistente es clasificado, limpiado y confeccionado nuevamente para crear accesorios de alta durabilidad como organizadores de cabina, bolsos utilitarios de herramientas náuticas y estuches estancos.
+              </p>
+            </div>
+            <div className="circular-a__visual">
+              <div className="circular-a__badge-eco">
+                <span className="circular-a__eco-icon">♻️</span>
+                <div>
+                  <strong>Programa Retorno Circular</strong>
+                  <p>Reutilización activa de descartes textiles de alta resistencia.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
