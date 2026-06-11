@@ -87,7 +87,7 @@ export const fabricProducts = [
   },
   {
     id: 'vinylglass',
-    name: 'Pvc Cristal Premium',
+    name: 'PVC Cristal Premium',
     composition: '100% Fabricación Japonesa',
     description: 'Láminas flexibles importadas de Japón que destacan por su transparencia, ofreciendo hasta un 92% de transmisión de luz. Desarrolladas exclusivamente para condiciones climáticas externas, ideales para ventanas flexibles en carpas, terrazas y toldos.',
     guarantee: '6 años',
