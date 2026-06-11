@@ -12,7 +12,7 @@ export const fabricProducts = [
     uses: 'Exterior, hogar, embarcaciones, terraza, toldos, cojines, cortinas',
     certifications: ['OEKO-TEX® STANDARD 100', 'Ignífugo UNE 1021', 'IMO FTP 2010'],
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Transpirable', 'Ignifugado', 'Impermeable', 'Duradero'],
-    image: '/images/coverguard_boat_cover.png',
+    image: '/images/coverguard_boat_cover_v2.png',
   },
   {
     id: 'strongmax',
@@ -26,7 +26,7 @@ export const fabricProducts = [
     uses: 'Cubierta, toldo, bimini, capota, tapicería exterior y náutica',
     certifications: ['OEKO-TEX® STANDARD 100', 'Ignífugo UNE 1021'],
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Transpirable', 'Ignifugado', 'Impermeable', 'Duradero'],
-    image: '/images/strongmax_inuse.png',
+    image: '/images/strongmax_inuse_v2.png',
   },
   {
     id: 'nylonguard',
@@ -40,7 +40,7 @@ export const fabricProducts = [
     shrinkage: '3,00%',
     uses: 'Alta resistencia, exterior, embarcaciones, bolsos, terraza',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU', 'Duradero'],
-    image: '/images/nylonguard_black_bag.png',
+    image: '/images/nylonguard_black_bag_v2.png',
   },
   {
     id: 'polyesterguard',
@@ -54,7 +54,7 @@ export const fabricProducts = [
     shrinkage: '2,00%',
     uses: 'Exterior, carpas, toldos, vestuario impermeable',
     qualities: ['Hidrófugo', 'Antimanchas', 'Protección UV', 'Resistencia a la llama', 'Repelente de líquidos', 'Ignifugado', 'Impermeable PU'],
-    image: '/images/polyesterguard_laser_cover.png',
+    image: '/images/polyesterguard_laser_cover_v2.png',
   },
   {
     id: 'oxfordguard',
@@ -68,7 +68,7 @@ export const fabricProducts = [
     shrinkage: '2,00%',
     uses: 'Ropa deportiva, ropa de trabajo, bolsos, prendas de vestuario',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Impermeable PU', 'Duradero'],
-    image: '/images/oxfordguard_console_cover.png',
+    image: '/images/oxfordguard_console_cover_v2.png',
   },
   {
     id: 'pvcleather',
@@ -83,7 +83,7 @@ export const fabricProducts = [
     marineFastness: '4-5/5',
     uses: 'Tapicería náutica, yates, restaurantes, piscinas, exterior',
     qualities: ['Imitación Cuero', 'Antimanchas', 'Antimoho', 'Protección UV', 'Impermeable', 'Ignifugado', 'Suave', 'Duradero'],
-    image: '/images/pvcleather_inuse.png',
+    image: '/images/pvcleather_inuse_v2.png',
   },
   {
     id: 'vinylglass',
