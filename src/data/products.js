@@ -68,7 +68,7 @@ export const fabricProducts = [
     shrinkage: '2,00%',
     uses: 'Ropa deportiva, ropa de trabajo, bolsos, prendas de vestuario',
     qualities: ['Hidrófugo', 'Antimanchas', 'Antimoho', 'Protección UV', 'Repelente de líquidos', 'Impermeable PU', 'Duradero'],
-    image: '/images/oxfordguard_console_cover_v2.png',
+    image: '/images/oxfordguard_sailing_v2.png',
   },
   {
     id: 'pvcleather',
