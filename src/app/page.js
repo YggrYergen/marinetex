@@ -87,8 +87,10 @@ export default function Home() {
               Fibra que Protege tu Embarcación y Mobiliario
             </h2>
             <p>
-              Fabricados textiles premium para resistir la salinidad extrema, rayos UV y humedad severa. 
-              Diseñados para la confección de fundas de embarcaciones, toldos náuticos y tapicería de terraza de alta gama.
+              MarineTex®, marca líder en el mercado de textiles de alta calidad
+              para aplicaciones exteriores y marinas, ofreciendo tejidos de una
+              calidad excepcional, con fabricación 100% Europea, resistentes a
+              climas extremos, con garantía de hasta 10 años.
             </p>
           </div>
 
